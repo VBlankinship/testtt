@@ -28,7 +28,7 @@ exports.config = {
         //'./features/login.feature',
        // './features/myAccount.feature',
         //'./features/newCreationAcount.feature',
-        './features/removeCard.feature',
+       // './features/removeCard.feature',
        // './features/searchForStores.feature',
         './features/singleorder.feature',
     ],
