@@ -21,15 +21,15 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './features/addPaymentMethod.feature',
-        './features/ForgotPassword.feature',
-        './features/invalidAccountCreation.feature',
-        './features/invalidLogin.feature',
-        './features/login.feature',
-        './features/myAccount.feature',
-        './features/newCreationAcount.feature',
+       // './features/addPaymentMethod.feature',
+       // './features/ForgotPassword.feature',
+        //'./features/invalidAccountCreation.feature',
+        //'./features/invalidLogin.feature',
+        //'./features/login.feature',
+       // './features/myAccount.feature',
+        //'./features/newCreationAcount.feature',
         './features/removeCard.feature',
-        './features/searchForStores.feature',
+       // './features/searchForStores.feature',
         './features/singleorder.feature',
     ],
     // Patterns to exclude.
