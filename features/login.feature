@@ -1,12 +1,11 @@
-Feature: The Internet Guinea Pig Website
+Feature: Account Page
 
-  Scenario Outline: As a user, I can log into the secure area
+  Scenario: Login with Valid credentials
+    Given I am on Cava Account Page
+    When I enter valid credentials
+    Then I should be able to Sign In successfully
+    When I click on account icon
+    Then I should be able to logout
 
-    Given I am on the login page
-    When I login with <username> and <password>
-    Then I should see a flash message saying <message>
 
-    Examples:
-      | username | password             | message                        |
-      | tomsmith | SuperSecretPassword! | You logged into a secure area! |
-      | foobar   | barfoo               | Your username is invalid!      |
+
